@@ -1,0 +1,28 @@
+{
+  "name": "tristrees",
+  "version": "1.0.0",
+  "description": "[![Build Status](https://travis-ci.org/Automattic/_s.svg?branch=master)](https://travis-ci.org/Automattic/_s)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/inspiredev/tristrees.git"
+  },
+  "author": "Tri Nguyen <tri@tridnguyen.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/inspiredev/tristrees/issues"
+  },
+  "homepage": "https://github.com/inspiredev/tristrees#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^2.3.1",
+    "gulp-csso": "^1.0.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-rsync": "0.0.5",
+    "gulp-sass": "^2.0.1",
+    "gulp-util": "^3.0.5"
+  }
+}
