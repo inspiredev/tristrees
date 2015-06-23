@@ -148,3 +148,13 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+
+function custom_post_types() {
+    $args = array(
+      'public' => true,
+      'label'  => 'Trees',
+      'supports' => array( 'title', 'editor', 'thumbnail', 'page-attributes', 'revisions' )
+    );
+    register_post_type( 'tree', $args );
+}
+add_action( 'init', 'custom_post_types' );
