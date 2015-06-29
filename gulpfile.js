@@ -70,7 +70,7 @@ gulp.task('js', function () {
 });
 
 gulp.task('watch', ['enable-watch-mode', 'js'], function () {
-	gulp.watch('scss/*.scss', ['scss']);
+	gulp.watch('scss/*.scss', ['css']);
 });
 
 gulp.task('default', ['watch']);

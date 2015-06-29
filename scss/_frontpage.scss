@@ -1,0 +1,22 @@
+* {
+	box-sizing: inherit;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+.grid-sizer,
+.tree-image {
+	float: left;
+	width: 50%;
+	@media (min-width: 30em) {
+		width: 30%;
+	}
+	@media (min-width: 45em) {
+		width: 20%;
+	}
+	img {
+		padding: .5rem;
+	}
+}
