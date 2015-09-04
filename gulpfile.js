@@ -74,3 +74,5 @@ gulp.task('watch', ['enable-watch-mode', 'js'], function () {
 });
 
 gulp.task('default', ['watch']);
+
+gulp.task('build', ['js', 'css']);
