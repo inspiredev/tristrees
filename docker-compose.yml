@@ -1,0 +1,12 @@
+wordpress:
+  image: wordpress
+  external_links:
+    - wordpress_db:mysql
+  environment:
+    WORDPRESS_DB_NAME: wp_tristrees
+  volumes:
+    - .:/var/www/html/wp-content/themes/tristrees
+    - ./uploads:/var/www/html/wp-content/uploads
+    - ./plugins:/var/www/html/wp-content/plugins
+  ports:
+    - "13021:80"
