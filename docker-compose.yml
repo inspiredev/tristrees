@@ -1,5 +1,5 @@
 wordpress:
-  image: wordpress
+  image: wordpress:4.5.0
   external_links:
     - wordpress_db:mysql
   environment:
